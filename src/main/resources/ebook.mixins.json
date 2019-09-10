@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "drmeepster.ebook.mixins",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"BookItemMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

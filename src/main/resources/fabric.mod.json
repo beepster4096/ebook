@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "ebook",
+	"version": "${version}",
+
+	"name": "Eat-book",
+	"description": "Books are now edible.",
+	"authors": [
+		"DrMeepster"
+	],
+	"contact": {
+		"sources": "https://github.com/DrMeepster/ebook"
+	},
+
+	"license": "MIT",
+	"icon": "assets/ebook/icon.png",
+
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"ebook.mixins.json"
+	],
+
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}

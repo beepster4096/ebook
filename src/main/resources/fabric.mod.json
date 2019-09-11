@@ -16,7 +16,11 @@
 	"icon": "assets/ebook/icon.png",
 
 	"environment": "*",
-	"entrypoints": {},
+	"entrypoints": {
+		"main": [
+			"drmeepster.ebook.EBookMod"
+		]
+	},
 	"mixins": [
 		"ebook.mixins.json"
 	],

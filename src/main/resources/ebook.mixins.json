@@ -3,7 +3,8 @@
 	"package": "drmeepster.ebook.mixins",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
-		"BookItemMixin"
+		"BookItemMixin",
+		"EnchantedBookItemMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,4 +1,4 @@
-package drmeepster.ebook;
+package drmeepster.ebook.item;
 
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;

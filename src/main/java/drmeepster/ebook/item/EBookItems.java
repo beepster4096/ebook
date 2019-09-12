@@ -1,5 +1,6 @@
 package drmeepster.ebook.item;
 
+import drmeepster.ebook.Util;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -13,6 +14,6 @@ public class EBookItems{
 		.food(new FoodComponent.Builder().hunger(3).saturationModifier(0.6F).meat().build()));
 
 	public static void init(){
-		Registry.register(Registry.ITEM, new Identifier("ebook",  "cookbook"), COOKBOOK);
+		Util.register("item", "ebook:cookbook", COOKBOOK);
 	}
 }

@@ -45,7 +45,7 @@ public abstract class EnchantedBookItemMixin extends Item{
 		}
 
 		if(entity instanceof PlayerEntity){
-			((PlayerEntity) entity).addExperience(Math.min(xp, 0));
+			((PlayerEntity) entity).addExperience(Math.max(xp, 0));
 		}
 
 		return super.finishUsing(item, world, entity);

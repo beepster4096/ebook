@@ -38,10 +38,7 @@ public abstract class EnchantedBookItemMixin extends Item{
 		int xp = 1;
 
 		for(Tag tag : EnchantedBookItem.getEnchantmentTag(item)){
-			// Should always be true but can be modified with commands
-			if(tag instanceof CompoundTag){
-				xp += Util.getXP((CompoundTag) tag);
-			}
+			xp += Util.getXP(tag);
 		}
 
 		if(entity instanceof PlayerEntity){

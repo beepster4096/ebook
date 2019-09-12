@@ -32,4 +32,10 @@ public class Util{
 			return 0;
 		}
 	}
+	
+	@SuppressWarnings("unchecked")
+	public static <T> T register(String registry, String name, T obj){
+		
+		return Registry.register((Registry<? super T>)Registry.REGISTRIES.get(new Identifier(registry)), new Identifier(name), obj);
+	}
 }

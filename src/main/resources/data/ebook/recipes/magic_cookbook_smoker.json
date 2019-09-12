@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "minecraft:enchanted_book"
+	},
+	"result": "ebook:cookbook",
+	"experience": 3,
+	"cookingtime": 120
+}

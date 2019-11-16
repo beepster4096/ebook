@@ -25,5 +25,7 @@
 		"ebook.mixins.json"
 	],
 
-	"depends": {}
+	"depends": {
+		"fabric": "*"
+	}
 }
